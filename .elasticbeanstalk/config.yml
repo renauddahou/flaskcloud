@@ -1,12 +1,12 @@
 branch-defaults:
-  main:
-    environment: Flaskcloud-env
+  default:
+    environment: Flaskcloud2-env
 environment-defaults:
-  Flaskcloud-env:
-    branch: main
-    repository: flaskcloud
+  Flaskcloud2-env:
+    branch: null
+    repository: null
 global:
-  application_name: Flaskcloud
+  application_name: Flaskcloud2
   default_ec2_keyname: null
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
   default_region: eu-west-3
@@ -15,5 +15,5 @@ global:
   platform_name: null
   platform_version: null
   profile: null
-  sc: git
+  sc: null
   workspace_type: Application
