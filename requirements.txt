@@ -1,0 +1,4 @@
+awsebcli
+flask
+pylint
+pytest
