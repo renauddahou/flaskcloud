@@ -5,16 +5,8 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    """Return a friendly HTTP greeting."""
-    print("I am inside hello world")
-    return 'Hello World!'
-
-
-@application.route("/echo/<name>")
-def echo(name):
-    print(f"This was placed in the url: new-{name}")
-    val = {"new-name": name}
-    return jsonify(val)
+    
+    return 'Bonjour Renaud!'
 
 
 if __name__ == "__main__":
